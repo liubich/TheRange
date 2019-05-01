@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Proxima Nova';
+  src: local('Proxima Nova'), url(../fonts/11096.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: local('Open Sans'), url(../fonts/OpenSans-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato'), url(../fonts/Lato-Regular.ttf) format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header {
+  background: url(../img/background-1.jpg) no-repeat center top / cover;
+  height: 1575px;
+} */
+.container {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.exp_the_rush {
+  background: url(../img/background-3.jpg) no-repeat center top / cover;
+  height: 457px;
+}
+
+h1 {
+  margin: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.inner {
+  margin: 0 auto;
+  padding: 108px;
+}
+
+.text {
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  color: rgb(168, 123, 183);
+  text-align: center;
+  margin-top: 10px;
+}
+
+.button {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Proxima Nova', sans-serif;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  width: 220px;
+  padding: 20px 0;
+  margin: 0 auto;
+  margin-top: 40px;
+  background: #58c4c4;
+  border-radius: 3px;
+}

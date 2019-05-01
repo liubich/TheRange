@@ -1,0 +1,25 @@
+{
+  "name": "the_range",
+  "version": "0.1.0",
+  "description": "Page-proof of svg template",
+  "main": "main.js",
+  "scripts": {
+    "lint:css": "stylelint css/*.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "liubich",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "stylelint": "^10.0.1",
+    "stylelint-config-standard": "^18.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liubich/TheRange.git"
+  },
+  "bugs": {
+    "url": "https://github.com/liubich/TheRange/issues"
+  },
+  "homepage": "https://github.com/liubich/TheRange#readme"
+}
