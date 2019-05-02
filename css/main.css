@@ -1,16 +1,28 @@
 @font-face {
-  font-family: 'Proxima Nova';
-  src: local('Proxima Nova'), url(../fonts/11096.otf) format('opentype');
+  font-family: 'proxima_novabold';
+  src:
+    url('../fonts/proxima_novabold-webfont.woff2') format('woff2'),
+    url('../fonts/proxima_novabold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: 'Open Sans';
-  src: local('Open Sans'), url(../fonts/OpenSans-Light.ttf) format('truetype');
+  font-family: 'latoregular';
+  src:
+    url('../fonts/lato-regular-webfont.woff2') format('woff2'),
+    url('../fonts/lato-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: 'Lato';
-  src: local('Lato'), url(../fonts/Lato-Regular.ttf) format('truetype');
+  font-family: 'open_sans_lightregular';
+  src:
+    url('../fonts/opensans-light-webfont.woff2') format('woff2'),
+    url('../fonts/opensans-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 * {
@@ -31,7 +43,7 @@
 
 h1 {
   margin: 20px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'open_sans_lightregular', sans-serif;
   font-size: 40px;
   color: rgb(255, 255, 255);
   text-align: center;
@@ -44,7 +56,7 @@ h1 {
 
 .text {
   font-size: 20px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'latoregular', sans-serif;
   color: rgb(168, 123, 183);
   text-align: center;
   margin-top: 10px;
@@ -55,7 +67,7 @@ h1 {
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Proxima Nova', sans-serif;
+  font-family: 'proxima_novabold', sans-serif;
   font-size: 18px;
   color: rgb(255, 255, 255);
   width: 220px;
