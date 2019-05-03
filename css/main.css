@@ -7,24 +7,6 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'latoregular';
-  src:
-    url('../fonts/lato-regular-webfont.woff2') format('woff2'),
-    url('../fonts/lato-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'open_sans_lightregular';
-  src:
-    url('../fonts/opensans-light-webfont.woff2') format('woff2'),
-    url('../fonts/opensans-light-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -43,7 +25,7 @@
 
 h1 {
   margin: 20px;
-  font-family: 'open_sans_lightregular', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 40px;
   color: rgb(255, 255, 255);
   text-align: center;
@@ -56,7 +38,7 @@ h1 {
 
 .text {
   font-size: 20px;
-  font-family: 'latoregular', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: rgb(168, 123, 183);
   text-align: center;
   margin-top: 10px;
