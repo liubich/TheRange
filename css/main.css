@@ -1,16 +1,11 @@
 @font-face {
   font-family: 'Proxima Nova';
-  src: local('Proxima Nova'), url(../fonts/11096.otf) format('opentype');
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  src: local('Open Sans'), url(../fonts/OpenSans-Light.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Lato';
-  src: local('Lato'), url(../fonts/Lato-Regular.ttf) format('truetype');
+  src:
+    local('Proxima Nova'),
+    url('../fonts/proxima_novabold-webfont.woff2') format('woff2'),
+    url('../fonts/proxima_novabold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
 }
 
 * {
@@ -57,6 +52,7 @@ h1 {
   text-transform: uppercase;
   font-family: 'Proxima Nova', sans-serif;
   font-size: 18px;
+  font-weight: bold;
   color: rgb(255, 255, 255);
   width: 220px;
   padding: 20px 0;
