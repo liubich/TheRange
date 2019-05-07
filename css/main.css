@@ -21,11 +21,14 @@
 
 .exp_the_rush {
   background: url(../img/background-3.jpg) no-repeat center top / cover;
+  width: 1600px;
   height: 457px;
 }
 
 h1 {
-  margin: 20px;
+  padding: 116px 0 12px 0;
+  letter-spacing: -1px;
+  font-weight: lighter;
   font-family: 'Open Sans', sans-serif;
   font-size: 40px;
   color: rgb(255, 255, 255);
@@ -34,7 +37,6 @@ h1 {
 
 .inner {
   margin: 0 auto;
-  padding: 108px;
 }
 
 .text {
@@ -43,6 +45,7 @@ h1 {
   color: rgb(168, 123, 183);
   text-align: center;
   line-height: 1.65;
+  letter-spacing: -0.2px;
 }
 
 .button_container {
@@ -58,8 +61,9 @@ h1 {
   font-family: 'Proxima Nova', sans-serif;
   font-size: 18px;
   font-weight: bold;
+  letter-spacing: -0.3px;
   color: rgb(255, 255, 255);
-  padding: 20px 51px;
+  padding: 20px 0 19px 7px;
   background: #58c4c4;
   border: 0;
   border-radius: 3px;
