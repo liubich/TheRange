@@ -1,9 +1,10 @@
 @font-face {
-  font-family: 'proxima_novabold';
+  font-family: 'Proxima Nova';
   src:
+    local('Proxima Nova'),
     url('../fonts/proxima_novabold-webfont.woff2') format('woff2'),
     url('../fonts/proxima_novabold-webfont.woff') format('woff');
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal;
 }
 
@@ -49,8 +50,9 @@ h1 {
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
-  font-family: 'proxima_novabold', sans-serif;
+  font-family: 'Proxima Nova', sans-serif;
   font-size: 18px;
+  font-weight: bold;
   color: rgb(255, 255, 255);
   width: 220px;
   padding: 20px 0;
