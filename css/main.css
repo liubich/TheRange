@@ -63,6 +63,7 @@ h1 {
   background: #58c4c4;
   border: 0;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 .main_button:hover {
