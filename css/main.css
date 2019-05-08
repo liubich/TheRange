@@ -45,6 +45,7 @@ h1 {
 
 .inner {
   margin: 0 auto;
+  padding: 0 108px;
 }
 
 .text {
@@ -53,12 +54,13 @@ h1 {
   color: rgb(168, 123, 183);
   text-align: center;
   line-height: 1.65;
+  margin-top: 6px;
   letter-spacing: -0.2px;
 }
 
 .button_container {
   display: flex;
-  padding-top: 40px;
+  padding-top: 34px;
   justify-content: center;
 }
 
@@ -71,7 +73,7 @@ h1 {
   font-weight: bold;
   letter-spacing: -0.3px;
   color: rgb(255, 255, 255);
-  padding: 20px 48px 19px 54px;
+  padding: 20px 51px 19px 57px;
   background: #58c4c4;
   border: 0;
   border-radius: 3px;
