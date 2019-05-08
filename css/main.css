@@ -45,8 +45,13 @@ h1 {
   margin-top: 10px;
 }
 
-.button {
-  display: block;
+.button_container {
+  display: flex;
+  padding-top: 40px;
+  justify-content: center;
+}
+
+.main_button {
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
@@ -54,10 +59,13 @@ h1 {
   font-size: 18px;
   font-weight: bold;
   color: rgb(255, 255, 255);
-  width: 220px;
-  padding: 20px 0;
-  margin: 0 auto;
-  margin-top: 40px;
+  padding: 20px 51px;
   background: #58c4c4;
+  border: 0;
   border-radius: 3px;
+  cursor: pointer;
+}
+
+.main_button:hover {
+  background: #60d0d0;
 }
