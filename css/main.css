@@ -42,7 +42,7 @@ h1 {
   font-family: 'Lato', sans-serif;
   color: rgb(168, 123, 183);
   text-align: center;
-  margin-top: 10px;
+  line-height: 1.65;
 }
 
 .button_container {
