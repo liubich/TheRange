@@ -24,7 +24,7 @@ html {
 }
 
 .container {
-  width: 1180px;
+  width: 960px;
   margin: 0 auto;
 }
 
@@ -43,10 +43,10 @@ h1 {
   text-align: center;
 }
 
-.inner {
+/* .inner {
   margin: 0 auto;
   padding: 0 108px;
-}
+} */
 
 .text {
   font-size: 20px;
