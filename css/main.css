@@ -115,8 +115,9 @@ h6 {
   height: 39px;
 }
 
-.feature__icon_container:last-child {
+.feature__icon_container_little {
   height: 30px;
+  margin-bottom: 9px;
 }
 
 .feature__desc {
