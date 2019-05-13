@@ -79,11 +79,11 @@ h1 {
   background: #60d0d0;
 }
 
-.sect_content {
+.features-section {
   padding-top: 70px;
 }
 
-.sect_content .container {
+.features-section .container {
   display: flex;
   flex-direction: row;
 }
