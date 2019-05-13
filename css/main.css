@@ -95,7 +95,7 @@ h1 {
   margin: 0 18px;
 }
 
-h6 {
+.feature__title {
   font-size: 15px;
   font-family: "Lato", sans-serif;
   color: rgb(102, 46, 121);
