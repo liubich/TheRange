@@ -78,3 +78,42 @@ h1 {
 .main_button:hover {
   background: #60d0d0;
 }
+
+.features-section {
+  padding: 70px 0 120px 0;
+}
+
+.features-section .container {
+  display: flex;
+  flex-direction: row;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 18px;
+}
+
+.feature__title {
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  color: rgb(102, 46, 121);
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 18px 0;
+}
+
+.feature__icon_container {
+  height: 39px;
+}
+
+.feature__desc {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  color: rgb(122, 131, 135);
+  line-height: 1.875;
+  text-align: center;
+}
