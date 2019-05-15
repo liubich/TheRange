@@ -59,7 +59,7 @@ html {
   justify-content: center;
 }
 
-.main_button {
+.main-button {
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
@@ -75,7 +75,7 @@ html {
   cursor: pointer;
 }
 
-.main_button:hover {
+.main-button:hover {
   background: #60d0d0;
 }
 
@@ -106,7 +106,7 @@ html {
   padding: 18px 0;
 }
 
-.feature__icon_container {
+.feature__icon-container {
   height: 39px;
 }
 
