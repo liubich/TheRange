@@ -23,17 +23,17 @@ html {
   text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
 }
 
-.container {
+.exp-the-rush-section {
+  background: #502460 url(../img/background-3.jpg) no-repeat center top / cover;
+  padding-bottom: 107px;
+}
+
+.main-container {
   width: 960px;
   margin: 0 auto;
 }
 
-.exp_the_rush {
-  background: #502460 url(../img/background-3.jpg) no-repeat center top / cover;
-  height: 457px;
-}
-
-h1 {
+.exp-the-rush-section__title {
   padding: 116px 0 12px 0;
   letter-spacing: -1px;
   font-weight: lighter;
@@ -43,17 +43,17 @@ h1 {
   text-align: center;
 }
 
-.text {
+.exp-the-rush-section__desc {
   font-size: 20px;
   font-family: 'Lato', sans-serif;
   color: rgb(168, 123, 183);
   text-align: center;
   line-height: 1.65;
-  margin-top: 6px;
+  padding-top: 6px;
   letter-spacing: -0.2px;
 }
 
-.button_container {
+.exp-the-rush-section__button-container {
   display: flex;
   padding-top: 34px;
   justify-content: center;
@@ -83,7 +83,7 @@ h1 {
   padding: 70px 0 120px 0;
 }
 
-.features-section .container {
+.features-section__main-container {
   display: flex;
   flex-direction: row;
 }
@@ -103,7 +103,7 @@ h1 {
   letter-spacing: 3px;
   text-transform: uppercase;
   text-align: center;
-  margin: 18px 0;
+  padding: 18px 0;
 }
 
 .feature__icon_container {
