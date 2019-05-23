@@ -68,15 +68,11 @@ html {
   font-weight: bold;
   letter-spacing: -0.3px;
   color: rgb(255, 255, 255);
-  padding: 20px 110px 19px 110px;
+  padding: 20px 51px 19px 57px;
   background: #58c4c4;
   border: 0;
   border-radius: 3px;
   cursor: pointer;
-}
-
-.main-button_get-started {
-  padding: 20px 51px 19px 57px;
 }
 
 .main-button:hover {
