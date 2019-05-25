@@ -23,14 +23,14 @@ html {
   text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
 }
 
-.exp-the-rush-section {
-  background: #502460 url(../img/background-3.jpg) no-repeat center top / cover;
-  padding-bottom: 107px;
-}
-
 .main-container {
   width: 960px;
   margin: 0 auto;
+}
+
+.exp-the-rush-section {
+  background: #502460 url(../img/background-3.jpg) no-repeat center top / cover;
+  padding-bottom: 107px;
 }
 
 .exp-the-rush-section__title {
